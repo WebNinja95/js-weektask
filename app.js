@@ -114,4 +114,11 @@ function fibonacciRecursive(n) {
 }
 console.log(fibonacciRecursive(4));
 
-//Ex4.2
+//Ex5.1
+function removeFirstAndLastChar(str) {
+    return str.slice(1, -1);
+}
+//Ex5.2
+function repeatStr(count, src) {
+    return src.repeat(count);
+}
